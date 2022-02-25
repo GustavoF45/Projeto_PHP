@@ -1,0 +1,198 @@
+body{
+    background-color: #ddd;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #52B2BF;
+    padding: 15px;
+    border-radius: 15px;
+    width: 60%;
+}
+
+legend{
+    border: 1px, solid, #000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.inputUser, ::placeholder{
+    text-align: center;
+}
+
+.gravar{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.gravar:hover, .gravar:active {
+    background-color: green;
+  }
+
+  .pi{
+      text-decoration: none;
+      background-color: black;
+      border-radius: 10px;
+      padding: 10px;
+      color: white;
+  }
+
+  .pi:hover, .pi:active{
+    color: grey;
+  }
+
+  .lpi{
+    text-decoration: none;
+    background-color: black;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    border: 1px solid black;
+  }
+
+  .lpi:hover, .lpi:active{
+    color: grey;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+.inputD{
+    background: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 25%;
+    margin-bottom: 20px;
+  }
+
+  #customers td, #customers th {
+    border: 1px solid black;
+    padding: 8px;
+    color: black;
+    text-align: center;
+  }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #52B2BF;
+    color: black;
+    text-align: center;
+  }
+
+  .campo{
+      color: black;
+  }
+
+  #pagi{
+      margin-left: 10px;
+  }
+
+  .texto{
+      color: black;
+  }
+
+  #linha{
+    width: 50%;
+    display: inline-block;
+    opacity: 50%;
+  }
+
+  .box_2{
+    margin: 20px;
+    background-color: #52B2BF;
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+  }
+
+  .modal{
+      width: 500px;
+      height: 250px;
+      background-color: #52B2BF;
+      border-radius: 10px;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      display: none;
+      animation: animate;
+      animation-duration: 500ms;
+  }
+
+  @keyframes animate{
+      from{opacity: 1;}
+      from{opacity: 0;}
+  }
+
+  .abrirModal{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15%;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .abrirModal:hover, .abrirModal:active {
+    background-color: green;
+  }
+
+  #delete{
+      text-align: center;
+      padding: 50px;
+  }
+
+  .aceitar{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15%;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+
+  .fechar{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15%;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    margin-top: 50px;
+  }
